@@ -132,6 +132,10 @@ p {
 }
 
 .link-button.light::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 55 20'%3E%3Cline x1='0' y1='10' x2='48' y2='10' stroke='%236B9E3E' stroke-width='4'/%3E%3Cpolyline points='40,4 48,10 40,16' fill='none' stroke='%236B9E3E' stroke-width='4'/%3E%3C/svg%3E");
+}
+
+.hero .link-button.light::after {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 55 20'%3E%3Cline x1='0' y1='10' x2='48' y2='10' stroke='%23ffffff' stroke-width='4'/%3E%3Cpolyline points='40,4 48,10 40,16' fill='none' stroke='%23ffffff' stroke-width='4'/%3E%3C/svg%3E");
 }
 
@@ -626,6 +630,8 @@ p {
     width: 100%;
     margin: 40px auto 60px;
     overflow: hidden;
+    content-visibility: auto;
+    contain-intrinsic-size: auto 600px;
 }
 
 .gallery-6-square--photos {
@@ -677,6 +683,8 @@ p {
     background: var(--dark-bg);
     color: var(--text-color);
     min-height: 434px;
+    content-visibility: auto;
+    contain-intrinsic-size: auto 434px;
 }
 
 .dark-section--inner {
@@ -731,6 +739,8 @@ p {
 /* ===== FEATURES SECTION ===== */
 .features-section {
     padding: 0 48px 80px;
+    content-visibility: auto;
+    contain-intrinsic-size: auto 600px;
 }
 
 .features-grid {
@@ -772,6 +782,8 @@ p {
     text-align: center;
     background: var(--white);
     border-top: 1px solid #eee;
+    content-visibility: auto;
+    contain-intrinsic-size: auto 400px;
 }
 
 .cta-inner {
@@ -804,6 +816,8 @@ p {
     padding: 80px 48px;
     text-align: center;
     background: var(--white);
+    content-visibility: auto;
+    contain-intrinsic-size: auto 700px;
 }
 
 .photo-carousel--heading {
@@ -816,6 +830,8 @@ p {
 .form-section {
     background: var(--dark-bg);
     color: var(--text-color);
+    content-visibility: auto;
+    contain-intrinsic-size: auto 500px;
 }
 
 .form-section--inner {
@@ -943,6 +959,8 @@ p {
 /* ===== FOOTER ===== */
 .site-footer {
     background: var(--white);
+    content-visibility: auto;
+    contain-intrinsic-size: auto 400px;
 }
 
 .footer-container {

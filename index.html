@@ -13,6 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preload" as="image" href="images/hero-main.webp" type="image/webp">
 </head>
 
 <body>
@@ -28,7 +29,7 @@
         <div class="nav-container">
             <div class="site-branding">
                 <a href="index.html" class="logo-link">
-                    <img src="images/Orchard-Park_LOGO.webp" alt="Orchard Park Senior Living">
+                    <img src="images/Orchard-Park_LOGO.webp" alt="Orchard Park Senior Living" width="200" height="65">
                 </a>
             </div>
             <nav id="site-navigation" class="main-navigation">
@@ -51,7 +52,7 @@
         <!-- ===== HERO SECTION ===== -->
         <section class="hero">
             <div class="hero--photo">
-                <img src="images/hero-main.jpg" alt="Orchard Park Senior Living community">
+                <img src="images/hero-main.webp" alt="Orchard Park Senior Living community" fetchpriority="high" width="1200" height="800">
             </div>
             <div class="hero--content-wrap">
                 <!-- Orange quote panel on the left -->
@@ -62,7 +63,7 @@
                     </div>
                     <div class="hero--quote-credit">&mdash; Khalil Gibran</div>
                     <div class="hero--quote-glyph">
-                        <img src="images/Orchard-Park_LOGO.webp" alt="Orchard Park Senior Living">
+                        <img src="images/Orchard-Park_LOGO.webp" alt="Orchard Park Senior Living" loading="lazy" width="200" height="65">
                     </div>
                 </div>
                 <!-- Hero content: top-left over the image -->
@@ -91,12 +92,12 @@
             </div>
             <div class="about-columns--image-1">
                 <div class="responsive-image-block">
-                    <img src="images/gallery-dining.png" alt="Chef-inspired cuisine at Orchard Park">
+                    <img src="images/gallery-dining.webp" alt="Chef-inspired cuisine at Orchard Park" loading="lazy" width="600" height="400">
                 </div>
             </div>
             <div class="about-columns--image-2">
                 <div class="responsive-image-block">
-                    <img src="images/about-section.png" alt="Beautiful interior of Orchard Park">
+                    <img src="images/about-section.webp" alt="Beautiful interior of Orchard Park" loading="lazy" width="600" height="400">
                     <div class="responsive-caption">Orchard Park, Clearlake CA</div>
                 </div>
             </div>
@@ -116,32 +117,32 @@
             <div class="gallery-6-square--photos" style="max-width: 100%; margin: 0 auto; padding: 0 15px;">
                 <div class="gallery-6-square-column">
                     <div class="gallery-6-square--photo">
-                        <img src="images/gallery image 1.webp" alt="Gallery image 1">
+                        <img src="images/gallery image 1.webp" alt="Gallery image 1" loading="lazy" width="400" height="400">
                     </div>
                 </div>
                 <div class="gallery-6-square-column">
                     <div class="gallery-6-square--photo">
-                        <img src="images/gallery image 2.webp" alt="Gallery image 2">
+                        <img src="images/gallery image 2.webp" alt="Gallery image 2" loading="lazy" width="400" height="400">
                     </div>
                 </div>
                 <div class="gallery-6-square-column">
                     <div class="gallery-6-square--photo">
-                        <img src="images/gallery image 3.webp" alt="Gallery image 3">
+                        <img src="images/gallery image 3.webp" alt="Gallery image 3" loading="lazy" width="400" height="400">
                     </div>
                 </div>
                 <div class="gallery-6-square-column">
                     <div class="gallery-6-square--photo">
-                        <img src="images/gallery image 4.webp" alt="Gallery image 4">
+                        <img src="images/gallery image 4.webp" alt="Gallery image 4" loading="lazy" width="400" height="400">
                     </div>
                 </div>
                 <div class="gallery-6-square-column">
                     <div class="gallery-6-square--photo">
-                        <img src="images/gallery image 5.png" alt="Happy seniors socializing on patio">
+                        <img src="images/gallery image 5.webp" alt="Happy seniors socializing on patio" loading="lazy" width="400" height="400">
                     </div>
                 </div>
                 <div class="gallery-6-square-column">
                     <div class="gallery-6-square--photo">
-                        <img src="images/gallery image 6.png" alt="Elegant library reading room">
+                        <img src="images/gallery image 6.webp" alt="Elegant library reading room" loading="lazy" width="400" height="400">
                     </div>
                 </div>
             </div>
@@ -152,7 +153,7 @@
             <div class="dark-section--inner">
                 <div class="dark-section--image">
                     <div class="responsive-image-block">
-                        <img src="images/services-memory.png" alt="Community activities at Orchard Park">
+                        <img src="images/services-memory.webp" alt="Community activities at Orchard Park" loading="lazy" width="600" height="400">
                     </div>
                 </div>
                 <div class="dark-section--content">
@@ -183,7 +184,7 @@
                 <!-- Assisted Living -->
                 <div class="feature-column">
                     <div class="responsive-image-block feature-image">
-                        <img src="images/services-assisted.png" alt="Assisted living at Orchard Park">
+                        <img src="images/services-assisted.webp" alt="Assisted living at Orchard Park" loading="lazy" width="600" height="400">
                     </div>
                     <h3 class="features--feature-heading">ASSISTED LIVING</h3>
                     <p>A supportive and caring environment that lets you be free to focus on what matters most. We take
@@ -195,7 +196,7 @@
                 <!-- Memory Care -->
                 <div class="feature-column">
                     <div class="responsive-image-block feature-image">
-                        <img src="images/services-memory.png" alt="Memory care at Orchard Park">
+                        <img src="images/services-memory.webp" alt="Memory care at Orchard Park" loading="lazy" width="600" height="400">
                     </div>
                     <h3 class="features--feature-heading">MEMORY CARE</h3>
                     <p>A purpose-built community designed for individuals at all stages of memory loss. Our
@@ -207,7 +208,7 @@
                 <!-- Apartment Features -->
                 <div class="feature-column">
                     <div class="responsive-image-block feature-image">
-                        <img src="images/about-section.png" alt="Apartment living at Orchard Park">
+                        <img src="images/about-section.webp" alt="Apartment living at Orchard Park" loading="lazy" width="600" height="400">
                     </div>
                     <h3 class="features--feature-heading">APARTMENT FEATURES</h3>
                     <p>Spacious studios, 1 and 2 bedroom apartments with fully equipped kitchens, high ceilings,
@@ -257,38 +258,38 @@
             <div class="experience-carousel-section">
                 <div class="experience-carousel-container" id="experienceCarousel">
                     <div class="experience-card">
-                        <img src="images/Experience senior living 1.webp" alt="Desserts">
+                        <img src="images/Experience senior living 1.webp" alt="Desserts" loading="lazy" width="350" height="450">
                         <div class="experience-card-overlay">
                             <h3>BAKERY & DESSERTS</h3>
                         </div>
                     </div>
                     <div class="experience-card">
-                        <img src="images/Experience Senior Living 2.webp" alt="Fitness">
+                        <img src="images/Experience Senior Living 2.webp" alt="Fitness" loading="lazy" width="350" height="450">
                         <div class="experience-card-overlay">
                             <h3>FITNESS & WELLNESS</h3>
                         </div>
                     </div>
                     <div class="experience-card">
-                        <img src="images/Experience Senior Living 3.webp" alt="Salon">
+                        <img src="images/Experience Senior Living 3.webp" alt="Salon" loading="lazy" width="350" height="450">
                         <div class="experience-card-overlay">
                             <h3>BEAUTY SALON</h3>
                         </div>
                     </div>
                     <div class="experience-card">
-                        <img src="images/Experience Senior Living 4.webp" alt="Pet Grooming">
+                        <img src="images/Experience Senior Living 4.webp" alt="Pet Grooming" loading="lazy" width="350" height="450">
                         <div class="experience-card-overlay">
                             <h3>PET GROOMING</h3>
                         </div>
                     </div>
                     <!-- Including images 5 and 6 as well to allow scrolling -->
                     <div class="experience-card">
-                        <img src="images/Experience Senior Living 5.webp" alt="Socializing">
+                        <img src="images/Experience Senior Living 5.webp" alt="Socializing" loading="lazy" width="350" height="450">
                         <div class="experience-card-overlay">
                             <h3>WELLNESS</h3>
                         </div>
                     </div>
                     <div class="experience-card">
-                        <img src="images/Experience Senior Living 6.webp" alt="Library">
+                        <img src="images/Experience Senior Living 6.webp" alt="Library" loading="lazy" width="350" height="450">
                         <div class="experience-card-overlay">
                             <h3>GARDENING</h3>
                         </div>
@@ -391,7 +392,7 @@
                 </div>
 
                 <div class="footer-logo-glyph">
-                    <img src="images/Orchard-Park_LOGO.webp" alt="Orchard Park Senior Living">
+                    <img src="images/Orchard-Park_LOGO.webp" alt="Orchard Park Senior Living" loading="lazy" width="200" height="65">
                 </div>
 
                 <hr>
@@ -409,7 +410,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
